@@ -1,0 +1,10 @@
+{
+    "files": [
+        "src/scripts/main.ts",
+        "src/scripts/test.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5"
+    }
+}

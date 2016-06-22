@@ -1,0 +1,31 @@
+{
+  "name": "vscodetest",
+  "version": "1.0.0",
+  "description": "test for vscode and typescript",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshan2/vscodetest.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Pengyin Shan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pshan2/vscodetest/issues"
+  },
+  "homepage": "https://github.com/pshan2/vscodetest#readme",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-typescript": "^2.13.6",
+    "tsify": "^0.16.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
