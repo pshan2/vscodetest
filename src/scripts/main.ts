@@ -34,4 +34,8 @@ console.log(strlength);
 console.log(strlength2);
 
 import { sayHello } from "./test"
-console.log(sayHello('Pengyin Shan'));
+function showHello(divName:string, name: string) {
+    const elt = document.getElementById(divName);
+    elt.innerHTML = sayHello(name);
+}
+showHello('greeting','Pengyin Shan');

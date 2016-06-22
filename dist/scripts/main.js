@@ -33,4 +33,8 @@ var strlength2 = typeassertion.length;
 console.log(strlength);
 console.log(strlength2);
 var test_1 = require("./test");
-console.log(test_1.sayHello('Pengyin Shan'));
+function showHello(divName, name) {
+    var elt = document.getElementById(divName);
+    elt.innerHTML = test_1.sayHello(name);
+}
+showHello('greeting', 'Pengyin Shan');
